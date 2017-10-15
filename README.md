@@ -4,8 +4,8 @@
 
 Uz .exe datoteku u Debug diretkoriju imamo i .dll datoteku.
 Ako pokrenemo .exe datoteku, a maknuli smo .dll datoteku, program će se srušiti s iznimkom FileNotFoundException jer 
-ne može referencirati metodu koja se je nalazila unutar izbrisane .dll datoteke.
-Kako bi HelloWorld program ispravno radio trebalo bi poslati .exe i .dll datoteku(moraju se nalaziti unutar istog direktorija).   
+ne može referencirati metodu koja se je nalazila unutar .dll datoteke.
+Kako bi HelloWorld program ispravno radio treba poslati .exe i .dll datoteku(moraju se nalaziti unutar istog direktorija).   
 
 #Pitanje 2:
 
