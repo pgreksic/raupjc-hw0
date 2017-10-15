@@ -14,4 +14,4 @@ aplikacije preveo i class library kojeg koristimo u konzolnoj aplikaciji.
 
 #Pitanje 3:
 
-Build proces se je izvršio bez greške, a NodaTime paket koji je nedostajao se dohvatio na početku build procesa.
+Build proces se je izvršio bez greške, a NodaTime paket koji je nedostajao je ponovno dohvaćen na početku build procesa.
