@@ -3,8 +3,9 @@
 #Pitanje 1:
 
 Uz .exe datoteku u Debug diretkoriju imamo i .dll datoteku.
-Ako pokrenemo .exe datoteku, a izbrisali smo .dll datoteku program će se skršiti s iznimkom FileNotFounException.
-Kako bi HelloWorld program ispravno radio trebalo bi poslati .exe i .dll datoteku.   
+Ako pokrenemo .exe datoteku, a izbrisali smo .dll datoteku program će se skršiti s iznimkom FileNotFounException jer
+program ne može referencirati metodu koja se je nalazila unutar .dll izbrisane datoteke.
+Kako bi HelloWorld program ispravno radio trebalo bi poslati .exe i .dll datoteku(moraju se nalaziti unutar istog direktorija).   
 
 #Pitanje 2:
 
